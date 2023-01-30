@@ -1,0 +1,5 @@
+1. SELECT materialy.nazwa, materialy.ilosc, producenci.nazwaProd FROM materialy, producenci WHERE materialy.Producenci_id = producenci.id
+AND materialy.ilosc = 9;
+2. SELECT materialy.nazwa, materialy.ilosc, producenci.nazwaProd FROM materialy, producenci, jednostki
+WHERE materialy.Producenci_id = producenci.id = materialy.Jednostki_id;
+3. CREATE USER 'zaopatrzenie'@'localhost' identified BY 'Z@op@trzenie' 
